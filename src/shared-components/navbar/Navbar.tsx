@@ -12,7 +12,13 @@ const NavigationBar = () => {
 
   return (
     <>
-      <Navbar className='page-container primary-text' bg='transparent' expand='lg' expanded={expanded} fixed='top'>
+      <Navbar
+        className={`page-container primary-text ${expanded ? 'navbar-expanded' : ''}`}
+        bg='transparent'
+        expand='lg'
+        expanded={expanded}
+        fixed='top'
+      >
         <Navbar.Toggle aria-controls='basic-navbar-nav' onClick={toggleNavbar}>
           <FaBars />
         </Navbar.Toggle>

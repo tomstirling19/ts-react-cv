@@ -42,9 +42,8 @@
 }
 
 @media (max-width: 48rem) {
-    .page-container {
-        flex-direction: column;
-        height: auto;
+    .email-link span {
+        display: none;
     }
 
     .left-col {
@@ -59,19 +58,17 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
         padding-left: 0;
     }
 
     .links-container {
         flex-direction: row;
         width: auto;
-        margin-top: 0;
-        margin-right: 0;
-        margin-left: auto;
     }
 
     .links-container a {
+        line-height: 0;
         margin-right: 1rem;
     }
 }
