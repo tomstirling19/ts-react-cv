@@ -1,0 +1,25 @@
+.nav-row {
+    margin-right: auto;
+}
+
+.nav-border {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.nav-links {
+    padding: 0 1rem !important;
+}
+
+.nav-links.active {
+    border: none;
+    background-color: rgba(150, 180, 255, 0.5);
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: 2px solid var(--bs-navbar-color) !important;
+}

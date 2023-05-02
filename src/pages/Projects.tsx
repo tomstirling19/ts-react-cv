@@ -1,5 +1,4 @@
 import React from 'react';
-import List from '../shared-components/Lists/List';
 
 interface Experience {
   imagePath: string;
@@ -15,7 +14,6 @@ const Resume: React.FC<ProjectProps> = ({ projectsList }) => {
   return (
     <div>
       <h1>Project</h1>
-      <List items={projectsList} />
     </div>
   );
 };
