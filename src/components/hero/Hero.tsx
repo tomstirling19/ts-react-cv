@@ -1,15 +1,15 @@
 import React from 'react';
-import Typed from 'react-typed';
 import { Container } from 'react-bootstrap';
-import './Hero.css'
+import Typed from 'react-typed';
 import heroImage from '../../assets/images/hero-image-rot.png';
+import './Hero.css';
 
 const Hero = () => {
     return (
         <div className='hero-image'
             style={{ backgroundImage: `url(${heroImage})` }}>
-            <Container className='page-container mt-0 h-100'>
-                <div className='d-flex flex-column justify-content-center h-100 text-white'>
+            <Container className='page-container hero-content'>
+                <div>
                     <h1 className='hero-text'>
                         <span>Hello, I am</span><br />
                         <Typed

@@ -1,0 +1,12 @@
+.footer-container {
+    margin-top: 5rem !important;
+    text-align: center;
+    width: auto !important;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        height: 80px;
+        font-size: 0.8rem !important;
+    }
+}

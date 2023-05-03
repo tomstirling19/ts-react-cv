@@ -6,7 +6,15 @@
     object-fit: cover;
 }
 
+.hero-content {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    width: auto !important;
+}
+
 .hero-text {
+    color: white;
     font-size: 3.25rem;
     font-weight: bold;
     line-height: 1.5;

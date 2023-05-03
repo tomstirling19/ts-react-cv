@@ -1,12 +1,19 @@
 import React from 'react';
-import Home from './pages/Home';
+import General from './components/General';
+import Cv from './components/cv/Cv';
+import Footer from './components/footer/Footer';
+import Projects from './components/projects/Projects';
 
-const App = () => {
+function App() {
   return (
-    <div className="flex-container">
-      <Home />
+    <div>
+      {/* <NavigationBar /> */}
+      <General />
+      <Cv />
+      <Projects />
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;

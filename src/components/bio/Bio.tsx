@@ -1,7 +1,7 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faGitlab, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 
 import './Bio.css';
 
@@ -9,7 +9,7 @@ const Bio = () => {
     return (
         <div className='page-container bio-container'>
             <div className='left-col'>
-                <h2 className='header-text'>Welcome</h2>
+                <h1 className='header-text bio-title'>Welcome</h1>
                 <div className='primary-text bio-text'>
                     <p>My name is Thomas Stirling (or Tom). I graduated from the University of Leeds
                         with a Masters in Computer Science (MEng & BSc Computer Science - 1st Class).</p>
@@ -17,14 +17,13 @@ const Bio = () => {
                     <p>My greatest interests lie in AI and ML, with keen interests in Blockchain,
                         Web3 and application development (Web / Mobile).</p>
 
-                    <p>I'm currently:
-                        <ul>
-                            <li>Strenghtening my skillset in machine learning model development (LLMs, NNs).</li>
-                            <li>Learning how to design end-to-end machine learning systems (tooling, design and deployment).</li>
-                            <li>Keeping up-to-date with breakthrough research and development within the AI/ML space.</li>
-                            <li>Working on application development within an internationial company.</li>
-                        </ul>
-                    </p>
+                    <p>I'm currently:</p>
+                    <ul>
+                        <li>Strenghtening my skillset in machine learning model development (LLMs, NNs).</li>
+                        <li>Learning how to design end-to-end machine learning systems (tooling, design and deployment).</li>
+                        <li>Keeping up-to-date with breakthrough research and development within the AI/ML space.</li>
+                        <li>Working on application development within an internationial company.</li>
+                    </ul>
                 </div>
             </div>
             <div className='right-col'>
@@ -44,7 +43,7 @@ const Bio = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
