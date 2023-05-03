@@ -1,17 +1,11 @@
 import React from 'react';
+import { splitSummaryIntoParagraphs } from '../../helpers/common';
 import CvItem from '../listItem/ListItem';
 import './Cv.css';
 import cvData from './cvData.json';
 
 const Cv = () => {
   const { educationList, experienceList } = cvData;
-
-  const splitSummaryIntoParagraphs = (summary) => {
-    const paragraphs = summary.split('\n').map((paragraph, index) => (
-      <p key={index}>{paragraph}</p>
-    ));
-    return paragraphs;
-  }
 
   return (
     <div className='page-container cv-container'>
